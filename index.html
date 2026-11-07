@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Работы — Gulomjon Vokhidov</title>
+<meta name="description" content="Все работы full-stack разработчика Gulomjon Vokhidov: сайты для клиник, бизнеса и салонов красоты, веб-приложения, Telegram-боты и CRM.">
+<meta property="og:title" content="Работы — Gulomjon Vokhidov">
+<meta property="og:description" content="60+ сайтов, веб-приложений и Telegram-ботов — каждая работа с описанием и живой ссылкой.">
+<meta property="og:image" content="assets/shots/laserhouse-uz.webp">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#05070d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2305070d'/%3E%3Cpath d='M18 22l-8 10 8 10M46 22l8 10-8 10M37 16l-10 32' stroke='%2322d3ee' stroke-width='5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="bg-glow" aria-hidden="true"></div>
+<div class="bg-grid" aria-hidden="true"></div>
+
+<header class="header">
+  <div class="container header-inner">
+    <a class="logo" href="https://vokhidov-website.vercel.app/"><span class="logo-dot"></span>Gulomjon Vokhidov</a>
+    <nav class="header-nav">
+      <a class="link-back" href="https://vokhidov-website.vercel.app/">← Портфолио</a>
+      <a class="btn btn-sm btn-primary" href="https://t.me/NetneGoshapa" target="_blank" rel="noopener noreferrer">Обсудить проект</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero container">
+    <span class="eyebrow"><span class="pulse"></span>Портфолио работ</span>
+    <h1 class="hero-title">Сайты, приложения и боты,<br><span class="grad">которые работают на бизнес</span></h1>
+    <p class="hero-sub">Каждая работа — живой проект с описанием: клиники, бизнес, салоны красоты, веб-приложения, Telegram-боты и ИИ-инструменты.</p>
+    <div class="stats" id="stats"></div>
+  </section>
+
+  <section class="container featured-wrap" aria-label="Главные проекты">
+    <div class="section-label"><span>01</span>Флагманские проекты</div>
+    <div class="featured" id="featured"></div>
+  </section>
+
+  <section class="container" aria-label="Все проекты">
+    <div class="section-label"><span>02</span>Все проекты</div>
+    <div class="filters" id="filters" role="tablist"></div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="container salons-wrap" aria-label="Серия сайтов для салонов">
+    <div class="section-label"><span>03</span>Серия для салонов красоты</div>
+    <div class="salons-head">
+      <h2>21 сайт-визитка для салонов Ташкента</h2>
+      <p>Единая дизайн-система, но у каждого салона — своя палитра, тексты, услуги, цены и контакты. RU / UZ, онлайн-запись и кнопки связи на каждом.</p>
+    </div>
+    <div class="salons" id="salons"></div>
+  </section>
+
+  <section class="container">
+    <div class="cta">
+      <div>
+        <h2>Нужен такой же результат?</h2>
+        <p>Сайт, Telegram-бот, ИИ-агент или приложение — от идеи до запуска.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-primary" href="https://t.me/NetneGoshapa" target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
+        <a class="btn btn-ghost" href="tel:+998952362500">+998 95 236 25 00</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer container">
+  <span>© <span id="year"></span> Gulomjon Vokhidov</span>
+  <a href="https://github.com/goshapa" target="_blank" rel="noopener noreferrer">github.com/goshapa</a>
+</footer>
+
+<script src="works.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
